@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "/opt/homebrew/bin/uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/Users/khurlee-/Desktop/WorkSpace/mcp-tests/server/weather.py"
+      ]
+    }
+  }
+}
